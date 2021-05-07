@@ -1,10 +1,12 @@
 import React from 'react';
-import DefaultScreen from './DefaultScreen';
+import CameraScreen from './CameraScreen';
+// import DefaultScreen from './DefaultScreen';
 
 const App = () => {
   return (
     <React.Fragment>
-      <DefaultScreen />
+      {/* <DefaultScreen /> */}
+      <CameraScreen />
     </React.Fragment>
   );
 };
